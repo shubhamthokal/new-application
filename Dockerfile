@@ -1,5 +1,3 @@
-
-
 FROM node:18-alpine
 
 WORKDIR /app
@@ -12,6 +10,4 @@ COPY . .
 
 Expose 8090
 
-CMD [ "npm" , "start"]
-
-
+CMD [ "npm" ,"run" , "start"]
